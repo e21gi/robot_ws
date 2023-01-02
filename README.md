@@ -3,10 +3,10 @@
 ---
 * 우분투 설치 20.04 버전 vmware 안에 설치..
   * image : https://releases.ubuntu.com/focal/ 데스크탑 버전 설치
-  * 터미네이터 설치 : 터미널창에 sudo apt install terminator 입력
+  * 터미네이터 설치 : 터미널창에 ~$ sudo apt install terminator 입력
 
 * ROS2 설치 :
-  * foxy : sudo apt install ros-foxy-desktop ros-foxy-rmw-fastrtps* ros-foxy-rmw-cyclonedds*
+  * foxy : ~$ sudo apt install ros-foxy-desktop ros-foxy-rmw-fastrtps* ros-foxy-rmw-cyclonedds*
 
 * testpub testsub으로 ROS2 정상작동 확인.
 
@@ -15,5 +15,10 @@
 
 * 깃허브 사용:
   * push를 통해 깃허브에 업로드해야 안전하다.
+
+* ROS 파이썬 패키지 만들기
+  * ~$ ros2 pkg create --build-type ament_python {만들파일이름}
+  * message_pubsub 파일을 만들어서 package , setup을 구축
+  * class를 만들어서 사용
 
 
