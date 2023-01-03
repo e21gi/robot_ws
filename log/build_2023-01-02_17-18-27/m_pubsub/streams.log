@@ -1,0 +1,26 @@
+[0.945s] Invoking command in '/home/ubuntu/robot_ws/build/m_pubsub': PYTHONPATH=/home/ubuntu/robot_ws/build/m_pubsub/prefix_override:/home/ubuntu/robot_ws/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/robot_ws/build/m_pubsub/build --no-deps install_data
+[1.227s] running develop
+[1.392s] running egg_info
+[1.393s] creating m_pubsub.egg-info
+[1.393s] writing m_pubsub.egg-info/PKG-INFO
+[1.393s] writing dependency_links to m_pubsub.egg-info/dependency_links.txt
+[1.393s] writing entry points to m_pubsub.egg-info/entry_points.txt
+[1.394s] writing requirements to m_pubsub.egg-info/requires.txt
+[1.394s] writing top-level names to m_pubsub.egg-info/top_level.txt
+[1.436s] writing manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[1.474s] reading manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[1.475s] writing manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[1.518s] running build_ext
+[1.519s] Creating /home/ubuntu/robot_ws/install/m_pubsub/lib/python3.8/site-packages/site.py
+[1.521s] Creating /home/ubuntu/robot_ws/install/m_pubsub/lib/python3.8/site-packages/m-pubsub.egg-link (link to .)
+[1.522s] Installing mp script to /home/ubuntu/robot_ws/install/m_pubsub/lib/m_pubsub
+[1.522s] Installing ms script to /home/ubuntu/robot_ws/install/m_pubsub/lib/m_pubsub
+[1.523s] 
+[1.523s] Installed /home/ubuntu/robot_ws/build/m_pubsub
+[1.524s] running install_data
+[1.524s] creating /home/ubuntu/robot_ws/install/m_pubsub/share/ament_index
+[1.524s] creating /home/ubuntu/robot_ws/install/m_pubsub/share/ament_index/resource_index
+[1.524s] creating /home/ubuntu/robot_ws/install/m_pubsub/share/ament_index/resource_index/packages
+[1.525s] copying resource/m_pubsub -> /home/ubuntu/robot_ws/install/m_pubsub/share/ament_index/resource_index/packages
+[1.525s] copying package.xml -> /home/ubuntu/robot_ws/install/m_pubsub/share/m_pubsub
+[1.555s] Invoked command in '/home/ubuntu/robot_ws/build/m_pubsub' returned '0': PYTHONPATH=/home/ubuntu/robot_ws/build/m_pubsub/prefix_override:/home/ubuntu/robot_ws/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/robot_ws/build/m_pubsub/build --no-deps install_data

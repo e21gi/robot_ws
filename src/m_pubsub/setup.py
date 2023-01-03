@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'mp = m_pubsub.mpub:main',
-            'ms = m_pubsub.mpub:main'
+            'ms = m_pubsub.msub:main',
+            'mst = m_pubsub.mtime:main'
 
         ],
     },

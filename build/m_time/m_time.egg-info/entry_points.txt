@@ -1,0 +1,5 @@
+[console_scripts]
+tm = m_time.tpub:main
+tmp = m_time.mtpub:main
+tms = m_time.tsub:main
+

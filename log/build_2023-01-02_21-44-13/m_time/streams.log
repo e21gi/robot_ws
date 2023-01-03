@@ -1,0 +1,19 @@
+[1.187s] Invoking command in '/home/ubuntu/robot_ws/build/m_time': PYTHONPATH=/home/ubuntu/robot_ws/build/m_time/prefix_override:/home/ubuntu/robot_ws/install/m_time/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/robot_ws/build/m_time/build --no-deps install_data
+[1.494s] running develop
+[1.689s] running egg_info
+[1.689s] writing m_time.egg-info/PKG-INFO
+[1.690s] writing dependency_links to m_time.egg-info/dependency_links.txt
+[1.691s] writing entry points to m_time.egg-info/entry_points.txt
+[1.691s] writing requirements to m_time.egg-info/requires.txt
+[1.692s] writing top-level names to m_time.egg-info/top_level.txt
+[1.735s] reading manifest file 'm_time.egg-info/SOURCES.txt'
+[1.736s] writing manifest file 'm_time.egg-info/SOURCES.txt'
+[1.784s] running build_ext
+[1.785s] Creating /home/ubuntu/robot_ws/install/m_time/lib/python3.8/site-packages/m-time.egg-link (link to .)
+[1.787s] Installing tm script to /home/ubuntu/robot_ws/install/m_time/lib/m_time
+[1.787s] Installing tmp script to /home/ubuntu/robot_ws/install/m_time/lib/m_time
+[1.788s] Installing tms script to /home/ubuntu/robot_ws/install/m_time/lib/m_time
+[1.789s] 
+[1.789s] Installed /home/ubuntu/robot_ws/build/m_time
+[1.790s] running install_data
+[1.874s] Invoked command in '/home/ubuntu/robot_ws/build/m_time' returned '0': PYTHONPATH=/home/ubuntu/robot_ws/build/m_time/prefix_override:/home/ubuntu/robot_ws/install/m_time/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/robot_ws/build/m_time/build --no-deps install_data

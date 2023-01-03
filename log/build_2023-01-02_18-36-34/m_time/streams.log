@@ -1,0 +1,24 @@
+[1.166s] Invoking command in '/home/ubuntu/robot_ws/build/m_time': PYTHONPATH=/home/ubuntu/robot_ws/build/m_time/prefix_override:/home/ubuntu/robot_ws/install/m_time/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/robot_ws/build/m_time/build --no-deps install_data
+[1.494s] running develop
+[1.672s] running egg_info
+[1.672s] creating m_time.egg-info
+[1.673s] writing m_time.egg-info/PKG-INFO
+[1.673s] writing dependency_links to m_time.egg-info/dependency_links.txt
+[1.674s] writing entry points to m_time.egg-info/entry_points.txt
+[1.674s] writing requirements to m_time.egg-info/requires.txt
+[1.675s] writing top-level names to m_time.egg-info/top_level.txt
+[1.677s] writing manifest file 'm_time.egg-info/SOURCES.txt'
+[1.717s] reading manifest file 'm_time.egg-info/SOURCES.txt'
+[1.717s] writing manifest file 'm_time.egg-info/SOURCES.txt'
+[1.763s] running build_ext
+[1.764s] Creating /home/ubuntu/robot_ws/install/m_time/lib/python3.8/site-packages/site.py
+[1.767s] Creating /home/ubuntu/robot_ws/install/m_time/lib/python3.8/site-packages/m-time.egg-link (link to .)
+[1.768s] 
+[1.768s] Installed /home/ubuntu/robot_ws/build/m_time
+[1.769s] running install_data
+[1.769s] creating /home/ubuntu/robot_ws/install/m_time/share/ament_index
+[1.770s] creating /home/ubuntu/robot_ws/install/m_time/share/ament_index/resource_index
+[1.770s] creating /home/ubuntu/robot_ws/install/m_time/share/ament_index/resource_index/packages
+[1.770s] copying resource/m_time -> /home/ubuntu/robot_ws/install/m_time/share/ament_index/resource_index/packages
+[1.771s] copying package.xml -> /home/ubuntu/robot_ws/install/m_time/share/m_time
+[1.835s] Invoked command in '/home/ubuntu/robot_ws/build/m_time' returned '0': PYTHONPATH=/home/ubuntu/robot_ws/build/m_time/prefix_override:/home/ubuntu/robot_ws/install/m_time/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/robot_ws/build/m_time/build --no-deps install_data

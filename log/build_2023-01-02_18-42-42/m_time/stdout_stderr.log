@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing m_time.egg-info/PKG-INFO
+writing dependency_links to m_time.egg-info/dependency_links.txt
+writing entry points to m_time.egg-info/entry_points.txt
+writing requirements to m_time.egg-info/requires.txt
+writing top-level names to m_time.egg-info/top_level.txt
+reading manifest file 'm_time.egg-info/SOURCES.txt'
+writing manifest file 'm_time.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/robot_ws/install/m_time/lib/python3.8/site-packages/m-time.egg-link (link to .)
+Installing mp script to /home/ubuntu/robot_ws/install/m_time/lib/m_time
+Installing ms script to /home/ubuntu/robot_ws/install/m_time/lib/m_time
+
+Installed /home/ubuntu/robot_ws/build/m_time
+running install_data

@@ -1,18 +1,22 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String #다른 string과는 다름
+from rclpy.qos import QoSProfile #qos 네임을 사용자가 지정할수 있도록 선언
 
 
 class M_pub(Node):
   def __init__(self):
     super().__init__('message_publisher') #message_publisher에 노드명 정의
-    self.message_publisher = self.create_publisher(String,"m_pub",10) #create_publisher를 이용
+    self.qos_profile = QoSProfile(depth = 10) #qos 네임을 사용자가 지정
+    self.message_publisher = self.create_publisher(String,"massage",self.qos_profile) #create_publisher를 이용
     self.timer = self.create_timer(1,self.m_publisher) #토픽 발행
     self.count = 0
 
-  def m_publisher(self,msg):
-    msg.data = "hellow" + self.count
-    self.message_publisher.publish()
+  def m_publisher(self):
+    msg = String()
+    msg.data = f"hellow {self.count}"
+    self.message_publisher.publish(msg)
+    self.get_logger().info(f"published mesage: {msg.data}")
     self.count += 1
 
 
