@@ -1,0 +1,1 @@
+CMake Error: The source "/home/ubuntu/robot_ws/src/test_interface/CMakeLists.txt" does not match the source "/home/ubuntu/robot_ws/src/test_interfce/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.

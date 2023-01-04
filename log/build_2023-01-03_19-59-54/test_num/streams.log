@@ -1,0 +1,25 @@
+[0.840s] Invoking command in '/home/ubuntu/robot_ws/build/test_num': PYTHONPATH=/home/ubuntu/robot_ws/build/test_num/prefix_override:/home/ubuntu/robot_ws/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/robot_ws/build/test_num/build --no-deps install_data
+[1.164s] running develop
+[1.344s] running egg_info
+[1.344s] creating test_num.egg-info
+[1.345s] writing test_num.egg-info/PKG-INFO
+[1.345s] writing dependency_links to test_num.egg-info/dependency_links.txt
+[1.345s] writing entry points to test_num.egg-info/entry_points.txt
+[1.345s] writing requirements to test_num.egg-info/requires.txt
+[1.345s] writing top-level names to test_num.egg-info/top_level.txt
+[1.347s] writing manifest file 'test_num.egg-info/SOURCES.txt'
+[1.386s] reading manifest file 'test_num.egg-info/SOURCES.txt'
+[1.387s] writing manifest file 'test_num.egg-info/SOURCES.txt'
+[1.431s] running build_ext
+[1.431s] Creating /home/ubuntu/robot_ws/install/test_num/lib/python3.8/site-packages/site.py
+[1.434s] Creating /home/ubuntu/robot_ws/install/test_num/lib/python3.8/site-packages/test-num.egg-link (link to .)
+[1.435s] Installing mss script to /home/ubuntu/robot_ws/install/test_num/lib/test_num
+[1.436s] 
+[1.436s] Installed /home/ubuntu/robot_ws/build/test_num
+[1.436s] running install_data
+[1.436s] creating /home/ubuntu/robot_ws/install/test_num/share/ament_index
+[1.437s] creating /home/ubuntu/robot_ws/install/test_num/share/ament_index/resource_index
+[1.437s] creating /home/ubuntu/robot_ws/install/test_num/share/ament_index/resource_index/packages
+[1.437s] copying resource/test_num -> /home/ubuntu/robot_ws/install/test_num/share/ament_index/resource_index/packages
+[1.437s] copying package.xml -> /home/ubuntu/robot_ws/install/test_num/share/test_num
+[1.469s] Invoked command in '/home/ubuntu/robot_ws/build/test_num' returned '0': PYTHONPATH=/home/ubuntu/robot_ws/build/test_num/prefix_override:/home/ubuntu/robot_ws/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/robot_ws/build/test_num/build --no-deps install_data

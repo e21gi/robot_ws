@@ -1,0 +1,8 @@
+CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+  rosidl_generate_interfaces() the passed file 'msg/Inefloat.msg' doesn't
+  exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/ubuntu/robot_ws/src/test_interfce'
+Call Stack (most recent call first):
+  CMakeLists.txt:23 (rosidl_generate_interfaces)
+
+

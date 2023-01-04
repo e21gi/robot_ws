@@ -1,5 +1,5 @@
 ---
-#2023_1_2
+# 2023_1_2
 ---
 * 우분투 설치 20.04 버전 vmware 안에 설치..
   * image : https://releases.ubuntu.com/focal/ 데스크탑 버전 설치
@@ -51,5 +51,42 @@
   * 반전변환 flip 사용
   * 이동변환 getRotationMatrix2D , warpAffine 사용
   * 색 변환 cvtColor 사용
+
+---
+# 2023_1_4
+---
+
+* 서비스를 이용해 송 수신
+  * service는 pcp를 이용하고 request,response 두가지를 이용합니다.
+
+* 인터페이스
+  * 1.topic , 2.service, 3.action 이 있는데 지금까지는 만들어진 인터페이스를 사용했다.
+  * 내가 만드는 인터페이스
+    * 인터페이스는 node와 같이 하나의 패키지로 만들 수 없고 파이썬에서 작동하지 않는다.
+    * 그래서 인터페이스 패키지를 따로 만들어야 한다(주의 파일이름을 대문자로 해야한다.)
+    * 인터페이스 패키지 명령어 : $ ros2 pkg create --build-type ament_cmake test_interfce
+    * 기본 패키지 명령어: $ ros2 pkg create --build-type ament_python test_num
+
+    * 1. 인터페이스 패지기 안에서 msg(자료형 선언) 파일을 만든후 안에 int64 num를 선언해준다
+    * 2. srv(서버를 넣을 파일)을 만든후에 내가 이용할 변수들을 선언해준다.
+    * 3. cmakelist 안에 rosidl_generate_interfaces(${PROJECT_NAME} "경로")을 추가 해준다.
+    * 4. pakage.xml 안에 <buildtool_depend>rosidl_default_generators</buildtool_depend>
+                        <depend>geometry_msgs</depend>
+                        <exec_depend>rosidl_default_runtime</exec_depend>
+                        <member_of_group>rosidl_interface_packages</member_of_group>
+                        를 추가해 준다.
+    * 5. setup.py의 명령어를 추가해 준다.
+    * 6. cb를 이용해 빌드해 준다.
+    * 7. 새로운 패키지를 만들어 내가 만든 인터페이스를 임포트 한후 확인한다.
+    전반적인 흐름은 코드 test_interface , test_num 참고. 2개의 창을 띄워서 확인해야한다.!
+
+* action 사용해보기
+  * 1. test_interface에 action 폴더를 만든후 fibonacci수열의 형식을 입력한다.
+  * 2. 기존에 있던 test_num폴더에 client와 server를 만든다. (코드 참고)
+  * 3. setup에 설정할 명령어를 입력
+  * 4. cd로 빌드후, cs로 bashrc 생성
+  * 5. ros2 run {파일이름} {설정한 명령어}
+
+
 
 

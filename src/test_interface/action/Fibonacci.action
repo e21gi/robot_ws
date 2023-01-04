@@ -1,0 +1,6 @@
+int32 number #꼴
+---
+int32[] array #데이터
+---
+int32[] part_array #피드벡
+

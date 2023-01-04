@@ -1,0 +1,25 @@
+[0.376s] Invoking command in '/home/ubuntu/robot_ws/build/test_interfce': /usr/bin/cmake /home/ubuntu/robot_ws/src/test_interfce -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/test_interfce
+[0.546s] -- The C compiler identification is GNU 9.4.0
+[0.728s] -- The CXX compiler identification is GNU 9.4.0
+[0.746s] -- Check for working C compiler: /usr/bin/cc
+[0.866s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.869s] -- Detecting C compiler ABI info
+[0.974s] -- Detecting C compiler ABI info - done
+[1.007s] -- Detecting C compile features
+[1.009s] -- Detecting C compile features - done
+[1.014s] -- Check for working CXX compiler: /usr/bin/c++
+[1.132s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.133s] -- Detecting CXX compiler ABI info
+[1.241s] -- Detecting CXX compiler ABI info - done
+[1.257s] -- Detecting CXX compile features
+[1.258s] -- Detecting CXX compile features - done
+[1.267s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.310s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.316s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.684s] CMake Error at CMakeLists.txt:22 (ros_idl_generate_interfaces):
+[1.684s]   Unknown CMake command "ros_idl_generate_interfaces".
+[1.685s] 
+[1.685s] 
+[1.685s] -- Configuring incomplete, errors occurred!
+[1.686s] See also "/home/ubuntu/robot_ws/build/test_interfce/CMakeFiles/CMakeOutput.log".
+[1.689s] Invoked command in '/home/ubuntu/robot_ws/build/test_interfce' returned '1': /usr/bin/cmake /home/ubuntu/robot_ws/src/test_interfce -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/test_interfce

@@ -1,0 +1,14 @@
+[0.324s] Invoking command in '/home/ubuntu/robot_ws/build/test_interfce': /usr/bin/cmake /home/ubuntu/robot_ws/src/test_interfce -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/test_interfce
+[0.343s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.385s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.640s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.644s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.648s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.820s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.855s] CMake Error at CMakeLists.txt:23 (ros_idl_generate_interfaces):
+[0.855s]   Unknown CMake command "ros_idl_generate_interfaces".
+[0.855s] 
+[0.855s] 
+[0.857s] -- Configuring incomplete, errors occurred!
+[0.857s] See also "/home/ubuntu/robot_ws/build/test_interfce/CMakeFiles/CMakeOutput.log".
+[0.864s] Invoked command in '/home/ubuntu/robot_ws/build/test_interfce' returned '1': /usr/bin/cmake /home/ubuntu/robot_ws/src/test_interfce -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/test_interfce

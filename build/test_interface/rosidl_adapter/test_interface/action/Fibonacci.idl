@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from test_interface/action/Fibonacci.action
+// generated code does not contain a copyright notice
+
+
+module test_interface {
+  module action {
+    struct Fibonacci_Goal {
+      @verbatim (language="comment", text=
+        "꼴")
+      int32 number;
+    };
+    struct Fibonacci_Result {
+      @verbatim (language="comment", text=
+        "데이터")
+      sequence<int32> array;
+    };
+    struct Fibonacci_Feedback {
+      @verbatim (language="comment", text=
+        "피드벡")
+      sequence<int32> part_array;
+    };
+  };
+};

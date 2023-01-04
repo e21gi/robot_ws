@@ -1,0 +1,4 @@
+/home/ubuntu/robot_ws/src/build/test_interface/rosidl_adapter/test_interface:msg/Num.idl
+/home/ubuntu/robot_ws/src/build/test_interface/rosidl_adapter/test_interface:msg/Sphere.idl
+/home/ubuntu/robot_ws/src/build/test_interface/rosidl_adapter/test_interface:srv/AddThreeInts.idl
+/home/ubuntu/robot_ws/src/build/test_interface/rosidl_adapter/test_interface:srv/MinusThreeInts.idl

@@ -1,0 +1,10 @@
+{
+  "package_name": "test_interface",
+  "non_idl_tuples": [
+    "/home/ubuntu/robot_ws/src/test_interface:msg/Num.msg",
+    "/home/ubuntu/robot_ws/src/test_interface:msg/Sphere.msg",
+    "/home/ubuntu/robot_ws/src/test_interface:srv/AddThreeInts.srv",
+    "/home/ubuntu/robot_ws/src/test_interface:srv/MinusThreeInts.srv",
+    "/home/ubuntu/robot_ws/src/test_interface:action/Fibonacci.action"
+  ]
+}

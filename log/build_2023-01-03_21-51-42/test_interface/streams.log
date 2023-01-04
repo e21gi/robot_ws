@@ -1,0 +1,140 @@
+[0.329s] Invoking command in '/home/ubuntu/robot_ws/build/test_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/test_num:/home/ubuntu/robot_ws/install/move_turtle_pkg:/home/ubuntu/robot_ws/install/m_time:/home/ubuntu/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/test_interface -- -j2 -l2
+[0.416s] [  1%] Built target test_interface__cpp
+[0.429s] [ 12%] Built target test_interface__rosidl_generator_c
+[0.478s] [ 23%] Built target test_interface__rosidl_typesupport_introspection_cpp
+[0.488s] [ 34%] Built target test_interface__rosidl_typesupport_fastrtps_cpp
+[0.526s] [ 45%] Built target test_interface__rosidl_typesupport_cpp
+[0.557s] [ 56%] Built target test_interface__rosidl_typesupport_introspection_c
+[0.580s] [ 67%] Built target test_interface__rosidl_typesupport_c
+[0.593s] [ 78%] Built target test_interface__rosidl_typesupport_fastrtps_c
+[0.617s] [ 78%] Built target test_interface
+[0.643s] [ 80%] Built target test_interface__py
+[0.676s] [ 89%] Built target test_interface__python
+[0.727s] [ 92%] Built target test_interface__rosidl_typesupport_c__pyext
+[0.742s] [ 96%] Built target test_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.760s] [100%] Built target test_interface__rosidl_typesupport_introspection_c__pyext
+[0.788s] Invoked command in '/home/ubuntu/robot_ws/build/test_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/test_num:/home/ubuntu/robot_ws/install/move_turtle_pkg:/home/ubuntu/robot_ws/install/m_time:/home/ubuntu/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/robot_ws/build/test_interface -- -j2 -l2
+[0.923s] Invoking command in '/home/ubuntu/robot_ws/build/test_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/test_num:/home/ubuntu/robot_ws/install/move_turtle_pkg:/home/ubuntu/robot_ws/install/m_time:/home/ubuntu/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/test_interface
+[0.939s] -- Install configuration: ""
+[0.941s] -- Execute custom install script
+[0.941s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/ament_index/resource_index/rosidl_interfaces/test_interface
+[0.943s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/num__functions.h
+[0.943s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/num__struct.h
+[0.944s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/num__type_support.h
+[0.944s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/sphere__functions.h
+[0.945s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/sphere__struct.h
+[0.946s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/sphere__type_support.h
+[0.946s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/num.h
+[0.947s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/rosidl_generator_c__visibility_control.h
+[0.948s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/sphere.h
+[0.948s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/add_three_ints.h
+[0.949s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/add_three_ints__functions.h
+[0.950s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/add_three_ints__struct.h
+[0.950s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/add_three_ints__type_support.h
+[0.951s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/minus_three_ints__functions.h
+[0.951s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/minus_three_ints__struct.h
+[0.952s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/minus_three_ints__type_support.h
+[0.952s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/minus_three_ints.h
+[0.953s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/environment/library_path.sh
+[0.954s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/environment/library_path.dsv
+[0.955s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[0.956s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[0.956s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.957s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[0.957s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/minus_three_ints__rosidl_typesupport_fastrtps_c.h
+[0.958s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/lib/libtest_interface__rosidl_typesupport_fastrtps_c.so
+[0.960s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[0.960s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[0.961s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.961s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[0.962s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/minus_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[0.963s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/lib/libtest_interface__rosidl_typesupport_fastrtps_cpp.so
+[0.964s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/num__rosidl_typesupport_introspection_c.h
+[0.964s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[0.965s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.966s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[0.966s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/minus_three_ints__rosidl_typesupport_introspection_c.h
+[0.967s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/num__builder.hpp
+[0.968s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/num__struct.hpp
+[0.969s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/num__traits.hpp
+[0.969s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/sphere__builder.hpp
+[0.970s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/sphere__struct.hpp
+[0.971s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/sphere__traits.hpp
+[0.971s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/num.hpp
+[0.972s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/sphere.hpp
+[0.972s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/add_three_ints.hpp
+[0.973s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/add_three_ints__builder.hpp
+[0.973s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/add_three_ints__struct.hpp
+[0.974s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/add_three_ints__traits.hpp
+[0.975s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/minus_three_ints__builder.hpp
+[0.976s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/minus_three_ints__struct.hpp
+[0.976s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/minus_three_ints__traits.hpp
+[0.977s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/minus_three_ints.hpp
+[0.978s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[0.979s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[0.980s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[0.981s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/include/test_interface/srv/detail/minus_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[0.981s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/environment/pythonpath.sh
+[0.982s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/environment/pythonpath.dsv
+[0.983s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/lib/python3.8/site-packages/test_interface/__init__.py
+[0.984s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/lib/python3.8/site-packages/test_interface/msg/__init__.py
+[0.984s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/lib/python3.8/site-packages/test_interface/msg/_num.py
+[0.985s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/lib/python3.8/site-packages/test_interface/msg/_sphere.py
+[0.986s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/lib/python3.8/site-packages/test_interface/srv/__init__.py
+[0.986s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/lib/python3.8/site-packages/test_interface/srv/_add_three_ints.py
+[0.987s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/lib/python3.8/site-packages/test_interface/srv/_minus_three_ints.py
+[0.988s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/lib/python3.8/site-packages/test_interface/test_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.989s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/lib/python3.8/site-packages/test_interface/test_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.990s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/lib/python3.8/site-packages/test_interface/test_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.991s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/lib/libtest_interface__python.so
+[0.992s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/msg/Num.idl
+[0.992s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/msg/Sphere.idl
+[0.993s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/srv/AddThreeInts.idl
+[0.994s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/srv/MinusThreeInts.idl
+[0.994s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/msg/Num.msg
+[0.995s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/msg/Sphere.msg
+[0.996s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/srv/AddThreeInts.srv
+[0.996s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/srv/AddThreeInts_Request.msg
+[0.997s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/srv/AddThreeInts_Response.msg
+[0.998s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/srv/MinusThreeInts.srv
+[0.999s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/srv/MinusThreeInts_Request.msg
+[0.999s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/srv/MinusThreeInts_Response.msg
+[1.000s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/ament_index/resource_index/package_run_dependencies/test_interface
+[1.001s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/ament_index/resource_index/parent_prefix_path/test_interface
+[1.002s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/environment/ament_prefix_path.sh
+[1.003s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/environment/ament_prefix_path.dsv
+[1.003s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/environment/path.sh
+[1.004s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/environment/path.dsv
+[1.005s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/local_setup.bash
+[1.005s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/local_setup.sh
+[1.006s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/local_setup.zsh
+[1.007s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/local_setup.dsv
+[1.007s] -- Symlinking: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/package.dsv
+[1.020s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/ament_index/resource_index/packages/test_interface
+[1.021s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/rosidl_cmake-extras.cmake
+[1.021s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.022s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.023s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/ament_cmake_export_targets-extras.cmake
+[1.023s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.024s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.025s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.026s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/test_interfaceConfig.cmake
+[1.026s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/test_interfaceConfig-version.cmake
+[1.027s] -- Up-to-date symlink: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/package.xml
+[1.028s] -- Up-to-date: /home/ubuntu/robot_ws/install/test_interface/lib/libtest_interface__rosidl_generator_c.so
+[1.028s] -- Up-to-date: /home/ubuntu/robot_ws/install/test_interface/lib/libtest_interface__rosidl_typesupport_introspection_c.so
+[1.029s] -- Up-to-date: /home/ubuntu/robot_ws/install/test_interface/lib/libtest_interface__rosidl_typesupport_c.so
+[1.030s] -- Up-to-date: /home/ubuntu/robot_ws/install/test_interface/lib/libtest_interface__rosidl_typesupport_introspection_cpp.so
+[1.031s] -- Up-to-date: /home/ubuntu/robot_ws/install/test_interface/lib/libtest_interface__rosidl_typesupport_cpp.so
+[1.079s] -- Up-to-date: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/test_interface__rosidl_generator_cExport.cmake
+[1.079s] -- Up-to-date: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/test_interface__rosidl_generator_cExport-noconfig.cmake
+[1.080s] -- Up-to-date: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cExport.cmake
+[1.080s] -- Up-to-date: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.081s] -- Up-to-date: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cExport.cmake
+[1.081s] -- Up-to-date: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cExport-noconfig.cmake
+[1.082s] -- Up-to-date: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/test_interface__rosidl_generator_cppExport.cmake
+[1.082s] -- Up-to-date: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cppExport.cmake
+[1.083s] -- Up-to-date: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.083s] -- Up-to-date: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cppExport.cmake
+[1.084s] -- Up-to-date: /home/ubuntu/robot_ws/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[1.092s] Invoked command in '/home/ubuntu/robot_ws/build/test_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/robot_ws/install/test_num:/home/ubuntu/robot_ws/install/move_turtle_pkg:/home/ubuntu/robot_ws/install/m_time:/home/ubuntu/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/robot_ws/build/test_interface

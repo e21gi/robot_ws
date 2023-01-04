@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/robot_ws/build/test_interfce': /usr/bin/cmake /home/ubuntu/robot_ws/src/test_interfce -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/test_interfce
+Invoked command in '/home/ubuntu/robot_ws/build/test_interfce' returned '1': /usr/bin/cmake /home/ubuntu/robot_ws/src/test_interfce -DCMAKE_INSTALL_PREFIX=/home/ubuntu/robot_ws/install/test_interfce

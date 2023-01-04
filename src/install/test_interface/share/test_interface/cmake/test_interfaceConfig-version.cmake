@@ -1,0 +1,1 @@
+/home/ubuntu/robot_ws/src/build/test_interface/ament_cmake_core/test_interfaceConfig-version.cmake

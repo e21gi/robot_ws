@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000192] (-) JobUnselected: {'identifier': 'm_pubsub'}
+[0.000265] (-) JobUnselected: {'identifier': 'm_time'}
+[0.000315] (-) JobUnselected: {'identifier': 'move_turtle_pkg'}
+[0.000360] (-) JobUnselected: {'identifier': 'test_interface'}
+[0.000406] (test_num) JobQueued: {'identifier': 'test_num', 'dependencies': OrderedDict()}
+[0.000454] (test_num) JobStarted: {'identifier': 'test_num'}
+[0.091400] (-) TimerEvent: {}
+[0.191995] (-) TimerEvent: {}
+[0.292677] (-) TimerEvent: {}
+[0.395616] (-) TimerEvent: {}
+[0.496638] (-) TimerEvent: {}
+[0.597566] (-) TimerEvent: {}
+[0.698404] (-) TimerEvent: {}
+[0.799090] (-) TimerEvent: {}
+[0.899798] (-) TimerEvent: {}
+[0.950623] (test_num) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/robot_ws/src/build/test_num/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/robot_ws/src/build/test_num', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1663', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/home/ubuntu/robot_ws/install/test_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/robot_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1496', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '16594', '_colcon_cd_root': '/home/ubuntu/robot_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ubuntu/robot_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:52051', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1697,unix/ubuntu:/tmp/.ICE-unix/1697', 'INVOCATION_ID': '6cfc3a3b2b4e43aaa4a114bad17eb071', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '90', 'AMENT_PREFIX_PATH': '/home/ubuntu/robot_ws/install/test_num:/home/ubuntu/robot_ws/install/test_interface:/home/ubuntu/robot_ws/install/move_turtle_pkg:/home/ubuntu/robot_ws/install/m_time:/home/ubuntu/robot_ws/install/m_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:dc1180f1-6308-4c64-be10-dbd355f2a7fa', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/ubuntu/robot_ws/src/build/test_num', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/robot_ws/src/build/test_num/prefix_override:/home/ubuntu/robot_ws/src/install/test_num/lib/python3.8/site-packages:/home/ubuntu/robot_ws/build/test_num:/home/ubuntu/robot_ws/install/test_num/lib/python3.8/site-packages:/home/ubuntu/robot_ws/install/test_interface/lib/python3.8/site-packages:/home/ubuntu/robot_ws/build/move_turtle_pkg:/home/ubuntu/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:/home/ubuntu/robot_ws/build/m_time:/home/ubuntu/robot_ws/install/m_time/lib/python3.8/site-packages:/home/ubuntu/robot_ws/build/m_pubsub:/home/ubuntu/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/ubuntu/robot_ws/install/test_interface'}, 'shell': False}
+[1.000007] (-) TimerEvent: {}
+[1.100660] (-) TimerEvent: {}
+[1.201375] (-) TimerEvent: {}
+[1.282978] (test_num) StdoutLine: {'line': b'running develop\n'}
+[1.301517] (-) TimerEvent: {}
+[1.402224] (-) TimerEvent: {}
+[1.490631] (test_num) StdoutLine: {'line': b'running egg_info\n'}
+[1.491149] (test_num) StdoutLine: {'line': b'creating test_num.egg-info\n'}
+[1.491758] (test_num) StdoutLine: {'line': b'writing test_num.egg-info/PKG-INFO\n'}
+[1.492498] (test_num) StdoutLine: {'line': b'writing dependency_links to test_num.egg-info/dependency_links.txt\n'}
+[1.493068] (test_num) StdoutLine: {'line': b'writing entry points to test_num.egg-info/entry_points.txt\n'}
+[1.493603] (test_num) StdoutLine: {'line': b'writing requirements to test_num.egg-info/requires.txt\n'}
+[1.494070] (test_num) StdoutLine: {'line': b'writing top-level names to test_num.egg-info/top_level.txt\n'}
+[1.495951] (test_num) StdoutLine: {'line': b"writing manifest file 'test_num.egg-info/SOURCES.txt'\n"}
+[1.502395] (-) TimerEvent: {}
+[1.536138] (test_num) StdoutLine: {'line': b"reading manifest file 'test_num.egg-info/SOURCES.txt'\n"}
+[1.537305] (test_num) StdoutLine: {'line': b"writing manifest file 'test_num.egg-info/SOURCES.txt'\n"}
+[1.584077] (test_num) StdoutLine: {'line': b'running build_ext\n'}
+[1.584941] (test_num) StdoutLine: {'line': b'Creating /home/ubuntu/robot_ws/src/install/test_num/lib/python3.8/site-packages/site.py\n'}
+[1.587834] (test_num) StdoutLine: {'line': b'Creating /home/ubuntu/robot_ws/src/install/test_num/lib/python3.8/site-packages/test-num.egg-link (link to .)\n'}
+[1.589198] (test_num) StdoutLine: {'line': b'Installing msc script to /home/ubuntu/robot_ws/src/install/test_num/lib/test_num\n'}
+[1.589860] (test_num) StdoutLine: {'line': b'Installing mss script to /home/ubuntu/robot_ws/src/install/test_num/lib/test_num\n'}
+[1.590423] (test_num) StdoutLine: {'line': b'Installing mss1 script to /home/ubuntu/robot_ws/src/install/test_num/lib/test_num\n'}
+[1.591151] (test_num) StdoutLine: {'line': b'\n'}
+[1.591380] (test_num) StdoutLine: {'line': b'Installed /home/ubuntu/robot_ws/src/build/test_num\n'}
+[1.591787] (test_num) StdoutLine: {'line': b'running install_data\n'}
+[1.592241] (test_num) StdoutLine: {'line': b'creating /home/ubuntu/robot_ws/src/install/test_num/share/ament_index\n'}
+[1.592669] (test_num) StdoutLine: {'line': b'creating /home/ubuntu/robot_ws/src/install/test_num/share/ament_index/resource_index\n'}
+[1.593062] (test_num) StdoutLine: {'line': b'creating /home/ubuntu/robot_ws/src/install/test_num/share/ament_index/resource_index/packages\n'}
+[1.593533] (test_num) StdoutLine: {'line': b'copying resource/test_num -> /home/ubuntu/robot_ws/src/install/test_num/share/ament_index/resource_index/packages\n'}
+[1.594143] (test_num) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/robot_ws/src/install/test_num/share/test_num\n'}
+[1.602601] (-) TimerEvent: {}
+[1.620823] (test_num) CommandEnded: {'returncode': 0}
+[1.664503] (test_num) JobEnded: {'identifier': 'test_num', 'rc': 0}
+[1.666304] (-) EventReactorShutdown: {}
