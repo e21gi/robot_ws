@@ -88,5 +88,29 @@
   * 5. ros2 run {파일이름} {설정한 명령어}
 
 
+---
+# 2023_1_5
+---
+
+* 파라미터 사용
+  * 파라미터는 다른 노드에서 불러올 수 있다.
+  * 형태는 서비스형으로 불러오고 보낸다.
+
+  * turtlesim 파라미터 이용
+    * 터틀심 색 확인_블루 : $ ros2 param get /turtlesim background_b
+    * 터틀심 색 변경_그린을 255로 : $ ros2 param set /turtlesim background_g 255
+    * 변경된 터틀심을 저장하고 위치를 알려줌 : $ ros2 param dump /turtlesim
+    * 파일에서 수정한 것을 불러오려면 : $ ros2 run turtlesim turtlesim_node --ros-args --params-file ./turtlesim.
+
+  * launch 사용
+    * ros2 run에서 run과 같은 느낌
+	  * run은 배울때 launch는 실제로 쓸때
+	  * 런치 파일안에는 세팅과, 파라미터값, node정보, share파일이 있다.
+	  * lunch 명령어 하나로 많은 node값을 이용할 수 있다.
+    * test_py_para.py로 파라미터를 만들어 출력해본다.
+    * turtlesim_mimic_launch로 터틀심을 3개를 생성한다.
+    * test_para_launch.py를 사용
+
+* turtle bot
 
 

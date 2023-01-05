@@ -1,0 +1,25 @@
+[0.968s] Invoking command in '/home/ubuntu/robot_ws/build/test_para': PYTHONPATH=/home/ubuntu/robot_ws/build/test_para/prefix_override:/home/ubuntu/robot_ws/install/test_para/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/robot_ws/build/test_para/build --no-deps install_data
+[1.329s] running develop
+[1.557s] running egg_info
+[1.557s] creating test_para.egg-info
+[1.558s] writing test_para.egg-info/PKG-INFO
+[1.558s] writing dependency_links to test_para.egg-info/dependency_links.txt
+[1.559s] writing entry points to test_para.egg-info/entry_points.txt
+[1.559s] writing requirements to test_para.egg-info/requires.txt
+[1.560s] writing top-level names to test_para.egg-info/top_level.txt
+[1.562s] writing manifest file 'test_para.egg-info/SOURCES.txt'
+[1.601s] reading manifest file 'test_para.egg-info/SOURCES.txt'
+[1.602s] writing manifest file 'test_para.egg-info/SOURCES.txt'
+[1.657s] running build_ext
+[1.657s] Creating /home/ubuntu/robot_ws/install/test_para/lib/python3.8/site-packages/site.py
+[1.660s] Creating /home/ubuntu/robot_ws/install/test_para/lib/python3.8/site-packages/test-para.egg-link (link to .)
+[1.661s] Installing tp script to /home/ubuntu/robot_ws/install/test_para/lib/test_para
+[1.662s] 
+[1.662s] Installed /home/ubuntu/robot_ws/build/test_para
+[1.663s] running install_data
+[1.663s] creating /home/ubuntu/robot_ws/install/test_para/share/ament_index
+[1.663s] creating /home/ubuntu/robot_ws/install/test_para/share/ament_index/resource_index
+[1.664s] creating /home/ubuntu/robot_ws/install/test_para/share/ament_index/resource_index/packages
+[1.664s] copying resource/test_para -> /home/ubuntu/robot_ws/install/test_para/share/ament_index/resource_index/packages
+[1.665s] copying package.xml -> /home/ubuntu/robot_ws/install/test_para/share/test_para
+[1.703s] Invoked command in '/home/ubuntu/robot_ws/build/test_para' returned '0': PYTHONPATH=/home/ubuntu/robot_ws/build/test_para/prefix_override:/home/ubuntu/robot_ws/install/test_para/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/robot_ws/build/test_para/build --no-deps install_data
