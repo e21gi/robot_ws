@@ -112,5 +112,14 @@
     * test_para_launch.py를 사용
 
 * turtle bot
+  * $ ifconfig : 현재 ip 확인
+  * $ sudo apt install nmap : nmap설치
+  * $ nmap? : 커맨드 확인
+  * $ nmap -sn 192.168.0.0/24(8bit3개여서) : 현재 생성되어있는 IP확인
+  * $ ssh ubuntu@192.168.0.{자신에게 할당된번호 ex 22}
+
+* turtle bot move
+  * 1. ros2 launch turtlebot3_bringup robot.launch.py로 bringup 실행
+  * 2. ros2 run turtlebot3_teleop teleop_keyboard를 키고 조정
 
 
