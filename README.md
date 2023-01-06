@@ -116,10 +116,40 @@
   * $ sudo apt install nmap : nmap설치
   * $ nmap? : 커맨드 확인
   * $ nmap -sn 192.168.0.0/24(8bit3개여서) : 현재 생성되어있는 IP확인
-  * $ ssh ubuntu@192.168.0.{자신에게 할당된번호 ex 22}
+  * $ ssh ubuntu@192.168.0.{자신에게 할당된번호 ex 22} : pc와 터틀봇 연결
 
 * turtle bot move
-  * 1. ros2 launch turtlebot3_bringup robot.launch.py로 bringup 실행
-  * 2. ros2 run turtlebot3_teleop teleop_keyboard를 키고 조정
+  * 1. 연결된 터틀 터미널쪽에서 ros2 launch turtlebot3_bringup robot.launch.py로 bringup 실행
+  * 2. 일반 터미널쪽에서 ros2 run turtlebot3_teleop teleop_keyboard를 키고 조정
+
+
+---
+# 2023_1_6
+---
+
+* turtlebot launch를 파일로 직접들어가지 않고 밖에서도 사용할 수 있게 설정
+  * launch에서 setup파일을 수정해야 한다.
+      * os.path 부분을 추가한 것이다(코드 참고)
+
+* turtlebot을 터미널이 아니고 node에서 사용하기
+  * 노틸러스에서 other loacaions -> conncet to sever -> sftp://{터틀봇 주소}/ ->연결
+  * 연결된 rapa홈의 bashrc를 pc(vsc)로 가져와서 수정 -> pc에 있는 bashrc파일의 rt re rn을  라파로 가져옴
+
+* turtlebot 토픽 설정
+  * rt -t 하면 현재 토픽이 나온다.
+    * battry state - 배터리 잔량
+		* cmd_vel - 터틀 봇 움직임
+		* imu - 각가속도 속도
+		* joint - 바퀴의 각도 확인
+		* odm - 시작위치로 부터 얼마나 떨어져 있나
+		* scan-레이저 센서로 각더에서 오는 값을 읽어서 거리 값을 알 수 있음
+		* tf- 3차원 공간에서 x,y,z 값 , 지면으로 부터 얼마나 떨어져 있나
+      * cmd_vel
+        * 노틸러스에서 conncet to seve를 통해 들어가면 turtlebot3_ws/src/turtlebot3_node/src/turtlebot3.cpp 에서 관련 명령어 파일을 볼 수 있다.
+        * node관련 패키지를 만들어서 작동 ex) tb3_basic_move.py
+        * tb3_basic_move.py 파일 안에서 터틀 봇을 작동시키는 것은 linear.x , angular.z로 작동된다.
+
+* 터틀봇 카메라 세팅
+  * 문제가 있어 해결중
 
 
