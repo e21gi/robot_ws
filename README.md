@@ -153,3 +153,29 @@
   * 문제가 있어 해결중
 
 
+---
+# 2023_1_9
+---
+* 저번주 터틀봇 카메라 세팅을 다시 실행
+  * 설치:
+    1. git clone https://github.com/christianrauch/raspicam2_node.git
+    2. sudo apt autoremove --purge libgles2-mesa-dev mesa-common-dev
+    3. sudo add-apt-repository ppa:ubuntu-pi-flavour-makers/ppa
+    4. sudo apt install libraspberrypi-bin libraspberrypi-dev
+    * 4번중 오류 발생 -> sudo apt_get update, upgrade 실행
+
+
+
+* turtle bot 네비게이션 and gazebo 시뮬레이션
+  * 시뮬 : https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simulation
+  * 네비게이션 : https://emanual.robotis.com/docs/en/platform/turtlebot3/navigation/#navigation
+
+* turtle bot slam
+  * https://emanual.robotis.com/docs/en/platform/turtlebot3/slam/#run-slam-node
+
+* aruco : 로봇서비스의 일종으로 빠른게 장점
+  * ar마커 : AR 마커를 이용한 물리적 프로그래밍 정보를 인식하는 방법
+
+* 프로젝트 아이디어 회의 : https://docs.google.com/presentation/d/1_tC2GGcQ1quFyGeajHxiugFS1wR6vpighWsBEbJgPas/edit#slide=id.p
+
+* 프로젝트 공동 github : https://github.com/SSI0816/project-jj
