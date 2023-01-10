@@ -179,3 +179,20 @@
 * 프로젝트 아이디어 회의 : https://docs.google.com/presentation/d/1_tC2GGcQ1quFyGeajHxiugFS1wR6vpighWsBEbJgPas/edit#slide=id.p
 
 * 프로젝트 공동 github : https://github.com/SSI0816/project-jj
+
+---
+# 2023_1_10
+---
+
+* turtlebot 카메라 안된부분 해결
+  * sudo apt_update하고 github순으로 진행
+    -> https://github.com/freshmea?tab=repositories
+
+
+* gpiov핀(rapa) 확인
+  https://fishpoint.tistory.com/6181
+
+* gpio 사용법을 익히고 led와 servo_motor를 이용
+  * home -> gpio -> {프로젝트이름}.py를 sudo nano로 만든뒤 사용
+
+
